@@ -1,7 +1,7 @@
 // @flow strict
 import * as React from 'react';
 import { act } from 'react-dom/test-utils';
-import { render, cleanup, wait, waitForElement, fireEvent } from 'wrappedTestingLibrary';
+import { render, cleanup, waitFor, waitForElement, fireEvent } from 'wrappedTestingLibrary';
 import asMock from 'helpers/mocking/AsMock';
 
 import { processHooks } from 'views/logic/views/ViewLoader';
@@ -90,8 +90,8 @@ describe('NewSearchPage', () => {
     it('should create new view with type search', async () => {
       render(<SimpleNewSearchPage />);
 
-      await wait(() => expect(ViewActions.create).toBeCalledTimes(1));
-      await wait(() => expect(ViewActions.create).toHaveBeenCalledWith(View.Type.Search));
+      await waitFor(() => expect(ViewActions.create).toBeCalledTimes(1));
+      await waitFor(() => expect(ViewActions.create).toHaveBeenCalledWith(View.Type.Search));
     });
 
     it('should process hooks with provided location query', async () => {
@@ -99,8 +99,8 @@ describe('NewSearchPage', () => {
 
       render(<SimpleNewSearchPage location={mockLocation} />);
 
-      await wait(() => expect(processHooksAction).toBeCalledTimes(1));
-      await wait(() => expect(processHooksAction.mock.calls[0][3]).toStrictEqual({ q: '', rangetype: 'relative', relative: '300' }));
+      await waitFor(() => expect(processHooksAction).toBeCalledTimes(1));
+      await waitFor(() => expect(processHooksAction.mock.calls[0][3]).toStrictEqual({ q: '', rangetype: 'relative', relative: '300' }));
     });
   });
 
@@ -117,8 +117,8 @@ describe('NewSearchPage', () => {
 
       fireEvent.click(viewLoadButton);
 
-      await wait(() => expect(ViewManagementActions.get).toHaveBeenCalledTimes(1));
-      await wait(() => expect(ViewManagementActions.get).toHaveBeenCalledWith('special-view-id'));
+      await waitFor(() => expect(ViewManagementActions.get).toHaveBeenCalledTimes(1));
+      await waitFor(() => expect(ViewManagementActions.get).toHaveBeenCalledWith('special-view-id'));
     });
   });
 
@@ -137,8 +137,8 @@ describe('NewSearchPage', () => {
 
       fireEvent.click(viewCreateButton);
 
-      await wait(() => expect(ViewActions.create).toBeCalledTimes(2));
-      await wait(() => expect(ViewActions.create).toHaveBeenCalledWith(View.Type.Search));
+      await waitFor(() => expect(ViewActions.create).toBeCalledTimes(2));
+      await waitFor(() => expect(ViewActions.create).toHaveBeenCalledWith(View.Type.Search));
     });
 
     it('should process hooks with empty query', async () => {
@@ -148,8 +148,8 @@ describe('NewSearchPage', () => {
 
       fireEvent.click(viewCreateButton);
 
-      await wait(() => expect(processHooksAction).toBeCalledTimes(2));
-      await wait(() => expect(processHooksAction.mock.calls[1][3]).toStrictEqual({}));
+      await waitFor(() => expect(processHooksAction).toBeCalledTimes(2));
+      await waitFor(() => expect(processHooksAction.mock.calls[1][3]).toStrictEqual({}));
     });
 
     it('should sync query params with current url', async () => {
@@ -158,8 +158,8 @@ describe('NewSearchPage', () => {
 
       fireEvent.click(viewCreateButton);
 
-      await wait(() => expect(syncWithQueryParameters).toBeCalledTimes(1));
-      await wait(() => expect(syncWithQueryParameters).toHaveBeenCalledWith('/search?q=&rangetype=relative&relative=300'));
+      await waitFor(() => expect(syncWithQueryParameters).toBeCalledTimes(1));
+      await waitFor(() => expect(syncWithQueryParameters).toHaveBeenCalledWith('/search?q=&rangetype=relative&relative=300'));
     });
   });
 });

@@ -1,6 +1,6 @@
 // @flow strict
 import * as React from 'react';
-import { render, cleanup, wait, waitForElement } from 'wrappedTestingLibrary';
+import { render, cleanup, waitFor, waitForElement } from 'wrappedTestingLibrary';
 import { StoreMock as MockStore } from 'helpers/mocking';
 
 import { RefreshActions } from 'views/stores/RefreshStore';
@@ -53,8 +53,8 @@ describe('ShowDashboardInBigDisplayMode should', () => {
                                           params={{ viewId: mockView.id }}
                                           location={mockLocation} />);
 
-    await wait(() => expect(RefreshActions.setInterval).toHaveBeenCalledTimes(1));
-    await wait(() => expect(RefreshActions.setInterval).toHaveBeenCalledWith(10000));
+    await waitFor(() => expect(RefreshActions.setInterval).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(RefreshActions.setInterval).toHaveBeenCalledWith(10000));
   });
 
   it('enable refresh actions', async () => {
@@ -62,7 +62,7 @@ describe('ShowDashboardInBigDisplayMode should', () => {
                                           params={{ viewId: mockView.id }}
                                           location={mockLocation} />);
 
-    await wait(() => expect(RefreshActions.enable).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(RefreshActions.enable).toHaveBeenCalledTimes(1));
   });
 
   it('set new refresh interval when location query refresh param changes', async () => {
@@ -74,8 +74,8 @@ describe('ShowDashboardInBigDisplayMode should', () => {
                                             params={{ viewId: mockView.id }}
                                             location={{ query: { ...mockLocation.query, refresh: '20' } }} />);
 
-    await wait(() => expect(RefreshActions.setInterval).toHaveBeenCalledTimes(2));
-    await wait(() => expect(RefreshActions.setInterval).toHaveBeenCalledWith(20000));
+    await waitFor(() => expect(RefreshActions.setInterval).toHaveBeenCalledTimes(2));
+    await waitFor(() => expect(RefreshActions.setInterval).toHaveBeenCalledWith(20000));
   });
 
   it('not change RefreshActions when query refresh param did not changed', async () => {
@@ -87,8 +87,8 @@ describe('ShowDashboardInBigDisplayMode should', () => {
                                             params={{ viewId: mockView.id }}
                                             location={mockLocation} />);
 
-    await wait(() => expect(RefreshActions.setInterval).toHaveBeenCalledTimes(1));
-    await wait(() => expect(RefreshActions.enable).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(RefreshActions.setInterval).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(RefreshActions.enable).toHaveBeenCalledTimes(1));
   });
 
   it('disable refresh actions on unmount', async () => {
@@ -97,7 +97,7 @@ describe('ShowDashboardInBigDisplayMode should', () => {
                                                               location={mockLocation} />);
 
     unmount();
-    await wait(() => expect(RefreshActions.disable).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(RefreshActions.disable).toHaveBeenCalledTimes(1));
   });
 
   it('should display view title', async () => {

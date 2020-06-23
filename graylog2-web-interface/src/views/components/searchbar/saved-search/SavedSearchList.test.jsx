@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import { render, cleanup, fireEvent, wait } from 'wrappedTestingLibrary';
+import { render, cleanup, fireEvent, waitFor } from 'wrappedTestingLibrary';
 import { browserHistory } from 'react-router';
 
 import Routes from 'routing/Routes';
@@ -138,7 +138,7 @@ describe('SavedSearchList', () => {
       const listItem = getByText('test-0');
 
       fireEvent.click(listItem);
-      await wait(() => {
+      await waitFor(() => {
         expect(browserHistory.push).toBeCalledTimes(1);
         expect(browserHistory.push).toHaveBeenCalledWith('SEARCH_VIEWID:foo-bar-0');
       });
