@@ -91,96 +91,51 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                   controlId="comment"
                   validationState={null}
                 >
-                  <StyledComponent
+                  <FormGroup
+                    bsClass="form-group"
+                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                     controlId="comment"
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "SIZES": Array [
-                          "large",
-                          "small",
-                        ],
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                          "isStatic": false,
-                          "lastClassName": "gcTkZc",
-                          "rules": Array [
-                            [Function],
-                          ],
-                        },
-                        "displayName": "FormGroup__StyledFormGroup",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                        "target": [Function],
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
                     validationState={null}
                   >
-                    <FormGroup
-                      bsClass="form-group"
-                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                      controlId="comment"
-                      validationState={null}
+                    <div
+                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                     >
-                      <div
-                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
+                      <ControlLabel
+                        className="col-sm-3"
                       >
                         <ControlLabel
-                          className="col-sm-3"
+                          bsClass="control-label"
+                          className="ControlLabel-sc-1edmum5-0 jKzIRX col-sm-3"
+                          srOnly={false}
                         >
-                          <StyledComponent
-                            className="col-sm-3"
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "ControlLabel-sc-1edmum5-0",
-                                  "isStatic": false,
-                                  "lastClassName": "hCskeX",
-                                  "rules": Array [
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "ControlLabel",
-                                "foldedComponentIds": Array [],
-                                "render": [Function],
-                                "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                "target": [Function],
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
+                          <label
+                            className="ControlLabel-sc-1edmum5-0 jKzIRX col-sm-3 control-label"
+                            htmlFor="comment"
                           >
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="ControlLabel-sc-1edmum5-0 hCskeX col-sm-3"
-                              srOnly={false}
-                            >
-                              <label
-                                className="ControlLabel-sc-1edmum5-0 hCskeX col-sm-3 control-label"
-                                htmlFor="comment"
-                              >
-                                Comment
-                              </label>
-                            </ControlLabel>
-                          </StyledComponent>
+                            Comment
+                          </label>
                         </ControlLabel>
-                        <InputWrapper
+                      </ControlLabel>
+                      <InputWrapper
+                        className="col-sm-7"
+                      >
+                        <div
                           className="col-sm-7"
                         >
-                          <div
-                            className="col-sm-7"
+                          <FormControl
+                            componentClass="input"
+                            inputRef={[Function]}
+                            label="Comment"
+                            maxLength={512}
+                            name="comment"
+                            onChange={[Function]}
+                            placeholder=""
+                            type="text"
+                            value=""
                           >
                             <FormControl
+                              bsClass="form-control"
+                              className="FormControl-sc-1amoaox-0 kmJcge"
                               componentClass="input"
                               inputRef={[Function]}
                               label="Comment"
@@ -191,38 +146,9 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                               type="text"
                               value=""
                             >
-                              <StyledComponent
-                                componentClass="input"
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "Feedback": [Function],
-                                    "SIZES": Array [
-                                      "small",
-                                      "large",
-                                    ],
-                                    "Static": [Function],
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "FormControl-sc-1amoaox-0",
-                                      "isStatic": false,
-                                      "lastClassName": "eXfwDC",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "FormControl",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "FormControl-sc-1amoaox-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
-                                inputRef={[Function]}
+                              <input
+                                className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                id="comment"
                                 label="Comment"
                                 maxLength={512}
                                 name="comment"
@@ -230,39 +156,13 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                                 placeholder=""
                                 type="text"
                                 value=""
-                              >
-                                <FormControl
-                                  bsClass="form-control"
-                                  className="FormControl-sc-1amoaox-0 eXfwDC"
-                                  componentClass="input"
-                                  inputRef={[Function]}
-                                  label="Comment"
-                                  maxLength={512}
-                                  name="comment"
-                                  onChange={[Function]}
-                                  placeholder=""
-                                  type="text"
-                                  value=""
-                                >
-                                  <input
-                                    className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                    id="comment"
-                                    label="Comment"
-                                    maxLength={512}
-                                    name="comment"
-                                    onChange={[Function]}
-                                    placeholder=""
-                                    type="text"
-                                    value=""
-                                  />
-                                </FormControl>
-                              </StyledComponent>
+                              />
                             </FormControl>
-                          </div>
-                        </InputWrapper>
-                      </div>
-                    </FormGroup>
-                  </StyledComponent>
+                          </FormControl>
+                        </div>
+                      </InputWrapper>
+                    </div>
+                  </FormGroup>
                 </FormGroup__StyledFormGroup>
               </Component>
             </Input>
@@ -317,96 +217,52 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                   controlId="PARAM"
                   validationState={null}
                 >
-                  <StyledComponent
+                  <FormGroup
+                    bsClass="form-group"
+                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                     controlId="PARAM"
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "SIZES": Array [
-                          "large",
-                          "small",
-                        ],
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                          "isStatic": false,
-                          "lastClassName": "gcTkZc",
-                          "rules": Array [
-                            [Function],
-                          ],
-                        },
-                        "displayName": "FormGroup__StyledFormGroup",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                        "target": [Function],
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
                     validationState={null}
                   >
-                    <FormGroup
-                      bsClass="form-group"
-                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                      controlId="PARAM"
-                      validationState={null}
+                    <div
+                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                     >
-                      <div
-                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
+                      <ControlLabel
+                        className="col-sm-3"
                       >
                         <ControlLabel
-                          className="col-sm-3"
+                          bsClass="control-label"
+                          className="ControlLabel-sc-1edmum5-0 jKzIRX col-sm-3"
+                          srOnly={false}
                         >
-                          <StyledComponent
-                            className="col-sm-3"
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "ControlLabel-sc-1edmum5-0",
-                                  "isStatic": false,
-                                  "lastClassName": "hCskeX",
-                                  "rules": Array [
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "ControlLabel",
-                                "foldedComponentIds": Array [],
-                                "render": [Function],
-                                "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                "target": [Function],
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
+                          <label
+                            className="ControlLabel-sc-1edmum5-0 jKzIRX col-sm-3 control-label"
+                            htmlFor="PARAM"
                           >
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="ControlLabel-sc-1edmum5-0 hCskeX col-sm-3"
-                              srOnly={false}
-                            >
-                              <label
-                                className="ControlLabel-sc-1edmum5-0 hCskeX col-sm-3 control-label"
-                                htmlFor="PARAM"
-                              >
-                                A parameter
-                              </label>
-                            </ControlLabel>
-                          </StyledComponent>
+                            A parameter
+                          </label>
                         </ControlLabel>
-                        <InputWrapper
+                      </ControlLabel>
+                      <InputWrapper
+                        className="col-sm-7"
+                      >
+                        <div
                           className="col-sm-7"
                         >
-                          <div
-                            className="col-sm-7"
+                          <FormControl
+                            componentClass="input"
+                            inputRef={[Function]}
+                            label="A parameter"
+                            maxLength={250}
+                            name="PARAM"
+                            onChange={[Function]}
+                            placeholder=""
+                            required={true}
+                            type="text"
+                            value="parameter"
                           >
                             <FormControl
+                              bsClass="form-control"
+                              className="FormControl-sc-1amoaox-0 kmJcge"
                               componentClass="input"
                               inputRef={[Function]}
                               label="A parameter"
@@ -418,38 +274,9 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                               type="text"
                               value="parameter"
                             >
-                              <StyledComponent
-                                componentClass="input"
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "Feedback": [Function],
-                                    "SIZES": Array [
-                                      "small",
-                                      "large",
-                                    ],
-                                    "Static": [Function],
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "FormControl-sc-1amoaox-0",
-                                      "isStatic": false,
-                                      "lastClassName": "eXfwDC",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "FormControl",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "FormControl-sc-1amoaox-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
-                                inputRef={[Function]}
+                              <input
+                                className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                id="PARAM"
                                 label="A parameter"
                                 maxLength={250}
                                 name="PARAM"
@@ -458,41 +285,13 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                                 required={true}
                                 type="text"
                                 value="parameter"
-                              >
-                                <FormControl
-                                  bsClass="form-control"
-                                  className="FormControl-sc-1amoaox-0 eXfwDC"
-                                  componentClass="input"
-                                  inputRef={[Function]}
-                                  label="A parameter"
-                                  maxLength={250}
-                                  name="PARAM"
-                                  onChange={[Function]}
-                                  placeholder=""
-                                  required={true}
-                                  type="text"
-                                  value="parameter"
-                                >
-                                  <input
-                                    className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                    id="PARAM"
-                                    label="A parameter"
-                                    maxLength={250}
-                                    name="PARAM"
-                                    onChange={[Function]}
-                                    placeholder=""
-                                    required={true}
-                                    type="text"
-                                    value="parameter"
-                                  />
-                                </FormControl>
-                              </StyledComponent>
+                              />
                             </FormControl>
-                          </div>
-                        </InputWrapper>
-                      </div>
-                    </FormGroup>
-                  </StyledComponent>
+                          </FormControl>
+                        </div>
+                      </InputWrapper>
+                    </div>
+                  </FormGroup>
                 </FormGroup__StyledFormGroup>
               </Component>
             </Input>
@@ -639,67 +438,23 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                             disabled={false}
                             type="submit"
                           >
-                            <StyledComponent
+                            <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
                               bsStyle="default"
-                              className="submit-button"
+                              className="Button__StyledButton-c9cbmb-0 laZUlH submit-button"
                               disabled={false}
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "SIZES": Array [
-                                    "large",
-                                    "small",
-                                    "xsmall",
-                                  ],
-                                  "STYLES": Array [
-                                    "success",
-                                    "warning",
-                                    "danger",
-                                    "info",
-                                    "default",
-                                    "primary",
-                                    "link",
-                                  ],
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Button__StyledButton-c9cbmb-0",
-                                    "isStatic": false,
-                                    "lastClassName": "hpBclA",
-                                    "rules": Array [
-                                      [Function],
-                                    ],
-                                  },
-                                  "displayName": "Button__StyledButton",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Button__StyledButton-c9cbmb-0",
-                                  "target": [Function],
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
                               type="submit"
                             >
-                              <Button
-                                active={false}
-                                block={false}
-                                bsClass="btn"
-                                bsStyle="default"
-                                className="Button__StyledButton-c9cbmb-0 hpBclA submit-button"
+                              <button
+                                className="Button__StyledButton-c9cbmb-0 laZUlH submit-button btn btn-default"
                                 disabled={false}
                                 type="submit"
                               >
-                                <button
-                                  className="Button__StyledButton-c9cbmb-0 hpBclA submit-button btn btn-default"
-                                  disabled={false}
-                                  type="submit"
-                                >
-                                  Filter
-                                </button>
-                              </Button>
-                            </StyledComponent>
+                                Filter
+                              </button>
+                            </Button>
                           </Button__StyledButton>
                         </ForwardRef>
                       </div>
@@ -721,68 +476,25 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                             onClick={[Function]}
                             type="reset"
                           >
-                            <StyledComponent
-                              className="reset-button"
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "SIZES": Array [
-                                    "large",
-                                    "small",
-                                    "xsmall",
-                                  ],
-                                  "STYLES": Array [
-                                    "success",
-                                    "warning",
-                                    "danger",
-                                    "info",
-                                    "default",
-                                    "primary",
-                                    "link",
-                                  ],
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Button__StyledButton-c9cbmb-0",
-                                    "isStatic": false,
-                                    "lastClassName": "hpBclA",
-                                    "rules": Array [
-                                      [Function],
-                                    ],
-                                  },
-                                  "displayName": "Button__StyledButton",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Button__StyledButton-c9cbmb-0",
-                                  "target": [Function],
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
+                            <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+                              bsStyle="default"
+                              className="Button__StyledButton-c9cbmb-0 laZUlH reset-button"
+                              disabled={false}
                               onClick={[Function]}
                               type="reset"
                             >
-                              <Button
-                                active={false}
-                                block={false}
-                                bsClass="btn"
-                                bsStyle="default"
-                                className="Button__StyledButton-c9cbmb-0 hpBclA reset-button"
+                              <button
+                                className="Button__StyledButton-c9cbmb-0 laZUlH reset-button btn btn-default"
                                 disabled={false}
                                 onClick={[Function]}
                                 type="reset"
                               >
-                                <button
-                                  className="Button__StyledButton-c9cbmb-0 hpBclA reset-button btn btn-default"
-                                  disabled={false}
-                                  onClick={[Function]}
-                                  type="reset"
-                                >
-                                  Reset
-                                </button>
-                              </Button>
-                            </StyledComponent>
+                                Reset
+                              </button>
+                            </Button>
                           </Button__StyledButton>
                         </ForwardRef>
                       </div>
@@ -849,322 +561,211 @@ exports[`<ContentPackInstall /> should render a install 1`] = `
                           <DataTable__StyledTable
                             className="table scrollable"
                           >
-                            <StyledComponent
-                              className="table scrollable"
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "DataTable__StyledTable-sc-1c22x1c-0",
-                                    "isStatic": false,
-                                    "lastClassName": "ioeTLv",
-                                    "rules": Array [
-                                      [Function],
-                                    ],
-                                  },
-                                  "displayName": "DataTable__StyledTable",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "DataTable__StyledTable-sc-1c22x1c-0",
-                                  "target": "table",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
+                            <table
+                              className="DataTable__StyledTable-sc-1c22x1c-0 jHoVvF table scrollable"
                             >
-                              <table
-                                className="DataTable__StyledTable-sc-1c22x1c-0 ioeTLv table scrollable"
-                              >
-                                <thead>
-                                  <tr>
-                                    <DataTableElement
-                                      element="Title"
-                                      formatter={[Function]}
-                                      index={0}
-                                      key="header-0"
-                                    >
-                                      <th>
-                                        Title
-                                      </th>
-                                    </DataTableElement>
-                                    <DataTableElement
-                                      element="Type"
-                                      formatter={[Function]}
-                                      index={1}
-                                      key="header-1"
-                                    >
-                                      <th>
-                                        Type
-                                      </th>
-                                    </DataTableElement>
-                                    <DataTableElement
-                                      element="Description"
-                                      formatter={[Function]}
-                                      index={2}
-                                      key="header-2"
-                                    >
-                                      <th>
-                                        Description
-                                      </th>
-                                    </DataTableElement>
-                                    <DataTableElement
-                                      element="Action"
-                                      formatter={[Function]}
-                                      index={3}
-                                      key="header-3"
-                                    >
-                                      <th>
-                                        Action
-                                      </th>
-                                    </DataTableElement>
-                                  </tr>
-                                </thead>
-                                <tbody>
+                              <thead>
+                                <tr>
                                   <DataTableElement
-                                    element={
-                                      Object {
-                                        "constraints": Array [],
-                                        "data": Object {
-                                          "descr": Object {
-                                            "@type": "string",
-                                            "@value": "hans",
-                                          },
-                                          "title": Object {
-                                            "@type": "string",
-                                            "@value": "franz",
-                                          },
-                                        },
-                                        "id": undefined,
-                                        "type": Object {
-                                          "name": "grok_pattern",
-                                          "version": "1",
-                                        },
-                                        "v": undefined,
-                                      }
-                                    }
+                                    element="Title"
                                     formatter={[Function]}
                                     index={0}
-                                    key="row-0"
+                                    key="header-0"
                                   >
-                                    <tr>
-                                      <td
-                                        className="bigColumns"
+                                    <th>
+                                      Title
+                                    </th>
+                                  </DataTableElement>
+                                  <DataTableElement
+                                    element="Type"
+                                    formatter={[Function]}
+                                    index={1}
+                                    key="header-1"
+                                  >
+                                    <th>
+                                      Type
+                                    </th>
+                                  </DataTableElement>
+                                  <DataTableElement
+                                    element="Description"
+                                    formatter={[Function]}
+                                    index={2}
+                                    key="header-2"
+                                  >
+                                    <th>
+                                      Description
+                                    </th>
+                                  </DataTableElement>
+                                  <DataTableElement
+                                    element="Action"
+                                    formatter={[Function]}
+                                    index={3}
+                                    key="header-3"
+                                  >
+                                    <th>
+                                      Action
+                                    </th>
+                                  </DataTableElement>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <DataTableElement
+                                  element={
+                                    Object {
+                                      "constraints": Array [],
+                                      "data": Object {
+                                        "descr": Object {
+                                          "@type": "string",
+                                          "@value": "hans",
+                                        },
+                                        "title": Object {
+                                          "@type": "string",
+                                          "@value": "franz",
+                                        },
+                                      },
+                                      "id": undefined,
+                                      "type": Object {
+                                        "name": "grok_pattern",
+                                        "version": "1",
+                                      },
+                                      "v": undefined,
+                                    }
+                                  }
+                                  formatter={[Function]}
+                                  index={0}
+                                  key="row-0"
+                                >
+                                  <tr>
+                                    <td
+                                      className="bigColumns"
+                                    >
+                                      franz
+                                    </td>
+                                    <td>
+                                      grok_pattern
+                                    </td>
+                                    <td
+                                      className="bigColumns"
+                                    />
+                                    <td>
+                                      <ButtonToolbar
+                                        bsClass="btn-toolbar"
                                       >
-                                        franz
-                                      </td>
-                                      <td>
-                                        grok_pattern
-                                      </td>
-                                      <td
-                                        className="bigColumns"
-                                      />
-                                      <td>
-                                        <ButtonToolbar
-                                          bsClass="btn-toolbar"
+                                        <div
+                                          className="btn-toolbar"
+                                          role="toolbar"
                                         >
-                                          <div
-                                            className="btn-toolbar"
-                                            role="toolbar"
+                                          <ForwardRef
+                                            bsSize="xs"
+                                            bsStyle="info"
+                                            onClick={[Function]}
                                           >
-                                            <ForwardRef
+                                            <Button__StyledButton
                                               bsSize="xs"
                                               bsStyle="info"
                                               onClick={[Function]}
                                             >
-                                              <Button__StyledButton
+                                              <Button
+                                                active={false}
+                                                block={false}
+                                                bsClass="btn"
                                                 bsSize="xs"
                                                 bsStyle="info"
+                                                className="Button__StyledButton-c9cbmb-0 laZUlH"
+                                                disabled={false}
                                                 onClick={[Function]}
                                               >
-                                                <StyledComponent
-                                                  bsSize="xs"
-                                                  bsStyle="info"
-                                                  forwardedComponent={
-                                                    Object {
-                                                      "$$typeof": Symbol(react.forward_ref),
-                                                      "SIZES": Array [
-                                                        "large",
-                                                        "small",
-                                                        "xsmall",
-                                                      ],
-                                                      "STYLES": Array [
-                                                        "success",
-                                                        "warning",
-                                                        "danger",
-                                                        "info",
-                                                        "default",
-                                                        "primary",
-                                                        "link",
-                                                      ],
-                                                      "attrs": Array [],
-                                                      "componentStyle": ComponentStyle {
-                                                        "componentId": "Button__StyledButton-c9cbmb-0",
-                                                        "isStatic": false,
-                                                        "lastClassName": "hpBclA",
-                                                        "rules": Array [
-                                                          [Function],
-                                                        ],
-                                                      },
-                                                      "displayName": "Button__StyledButton",
-                                                      "foldedComponentIds": Array [],
-                                                      "render": [Function],
-                                                      "styledComponentId": "Button__StyledButton-c9cbmb-0",
-                                                      "target": [Function],
-                                                      "toString": [Function],
-                                                      "warnTooManyClasses": [Function],
-                                                      "withComponent": [Function],
-                                                    }
-                                                  }
-                                                  forwardedRef={null}
+                                                <button
+                                                  className="Button__StyledButton-c9cbmb-0 laZUlH btn btn-xs btn-info"
+                                                  disabled={false}
                                                   onClick={[Function]}
+                                                  type="button"
                                                 >
-                                                  <Button
-                                                    active={false}
-                                                    block={false}
-                                                    bsClass="btn"
-                                                    bsSize="xs"
-                                                    bsStyle="info"
-                                                    className="Button__StyledButton-c9cbmb-0 hpBclA"
-                                                    disabled={false}
-                                                    onClick={[Function]}
-                                                  >
-                                                    <button
-                                                      className="Button__StyledButton-c9cbmb-0 hpBclA btn btn-xs btn-info"
-                                                      disabled={false}
-                                                      onClick={[Function]}
-                                                      type="button"
-                                                    >
-                                                      Show
-                                                    </button>
-                                                  </Button>
-                                                </StyledComponent>
-                                              </Button__StyledButton>
-                                            </ForwardRef>
-                                          </div>
-                                        </ButtonToolbar>
-                                      </td>
-                                      <BootstrapModalWrapper
+                                                  Show
+                                                </button>
+                                              </Button>
+                                            </Button__StyledButton>
+                                          </ForwardRef>
+                                        </div>
+                                      </ButtonToolbar>
+                                    </td>
+                                    <BootstrapModalWrapper
+                                      backdrop="static"
+                                      bsSize="large"
+                                      onClose={[Function]}
+                                      onHide={[Function]}
+                                      onOpen={[Function]}
+                                      showModal={false}
+                                    >
+                                      <Modal
                                         backdrop="static"
                                         bsSize="large"
-                                        onClose={[Function]}
                                         onHide={[Function]}
-                                        onOpen={[Function]}
-                                        showModal={false}
+                                        show={false}
                                       >
                                         <Modal
+                                          animation={true}
+                                          autoFocus={true}
                                           backdrop="static"
+                                          bsClass="modal"
                                           bsSize="large"
+                                          className="Modal-nuree8-0 hMPgsT"
+                                          dialogComponentClass={[Function]}
+                                          enforceFocus={true}
+                                          keyboard={true}
+                                          manager={
+                                            ModalManager {
+                                              "add": [Function],
+                                              "containers": Array [],
+                                              "data": Array [],
+                                              "handleContainerOverflow": true,
+                                              "hideSiblingNodes": true,
+                                              "isTopModal": [Function],
+                                              "modals": Array [],
+                                              "remove": [Function],
+                                            }
+                                          }
                                           onHide={[Function]}
+                                          renderBackdrop={[Function]}
+                                          restoreFocus={true}
                                           show={false}
                                         >
-                                          <StyledComponent
+                                          <Modal
+                                            autoFocus={true}
                                             backdrop="static"
-                                            bsSize="large"
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "BACKDROP_TRANSITION_DURATION": 150,
-                                                "Body": [Function],
-                                                "Dialog": [Function],
-                                                "Footer": [Function],
-                                                "Header": [Function],
-                                                "SIZES": Array [
-                                                  "large",
-                                                  "small",
-                                                ],
-                                                "TRANSITION_DURATION": 300,
-                                                "Title": [Function],
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "Modal-nuree8-0",
-                                                  "isStatic": false,
-                                                  "lastClassName": "eNmkew",
-                                                  "rules": Array [
-                                                    [Function],
-                                                  ],
-                                                },
-                                                "displayName": "Modal",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "Modal-nuree8-0",
-                                                "target": [Function],
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
+                                            backdropClassName="modal-backdrop"
+                                            backdropTransition={[Function]}
+                                            containerClassName="modal-open"
+                                            enforceFocus={true}
+                                            keyboard={true}
+                                            manager={
+                                              ModalManager {
+                                                "add": [Function],
+                                                "containers": Array [],
+                                                "data": Array [],
+                                                "handleContainerOverflow": true,
+                                                "hideSiblingNodes": true,
+                                                "isTopModal": [Function],
+                                                "modals": Array [],
+                                                "remove": [Function],
                                               }
                                             }
-                                            forwardedRef={null}
+                                            onEntering={[Function]}
+                                            onExited={[Function]}
                                             onHide={[Function]}
+                                            onMouseUp={[Function]}
+                                            renderBackdrop={[Function]}
+                                            restoreFocus={true}
                                             show={false}
-                                          >
-                                            <Modal
-                                              animation={true}
-                                              autoFocus={true}
-                                              backdrop="static"
-                                              bsClass="modal"
-                                              bsSize="large"
-                                              className="Modal-nuree8-0 eNmkew"
-                                              dialogComponentClass={[Function]}
-                                              enforceFocus={true}
-                                              keyboard={true}
-                                              manager={
-                                                ModalManager {
-                                                  "add": [Function],
-                                                  "containers": Array [],
-                                                  "data": Array [],
-                                                  "handleContainerOverflow": true,
-                                                  "hideSiblingNodes": true,
-                                                  "isTopModal": [Function],
-                                                  "modals": Array [],
-                                                  "remove": [Function],
-                                                }
-                                              }
-                                              onHide={[Function]}
-                                              renderBackdrop={[Function]}
-                                              restoreFocus={true}
-                                              show={false}
-                                            >
-                                              <Modal
-                                                autoFocus={true}
-                                                backdrop="static"
-                                                backdropClassName="modal-backdrop"
-                                                backdropTransition={[Function]}
-                                                containerClassName="modal-open"
-                                                enforceFocus={true}
-                                                keyboard={true}
-                                                manager={
-                                                  ModalManager {
-                                                    "add": [Function],
-                                                    "containers": Array [],
-                                                    "data": Array [],
-                                                    "handleContainerOverflow": true,
-                                                    "hideSiblingNodes": true,
-                                                    "isTopModal": [Function],
-                                                    "modals": Array [],
-                                                    "remove": [Function],
-                                                  }
-                                                }
-                                                onEntering={[Function]}
-                                                onExited={[Function]}
-                                                onHide={[Function]}
-                                                onMouseUp={[Function]}
-                                                renderBackdrop={[Function]}
-                                                restoreFocus={true}
-                                                show={false}
-                                                transition={[Function]}
-                                              />
-                                            </Modal>
-                                          </StyledComponent>
+                                            transition={[Function]}
+                                          />
                                         </Modal>
-                                      </BootstrapModalWrapper>
-                                    </tr>
-                                  </DataTableElement>
-                                </tbody>
-                              </table>
-                            </StyledComponent>
+                                      </Modal>
+                                    </BootstrapModalWrapper>
+                                  </tr>
+                                </DataTableElement>
+                              </tbody>
+                            </table>
                           </DataTable__StyledTable>
                         </div>
                       </div>

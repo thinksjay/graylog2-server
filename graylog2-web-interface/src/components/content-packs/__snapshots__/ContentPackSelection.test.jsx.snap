@@ -71,89 +71,46 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                       controlId="name"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="name"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="name"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="name"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="name"
-                                  >
-                                    Name
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Name
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="Name"
+                                maxLength={250}
+                                name="name"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value=""
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Name"
@@ -165,38 +122,9 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                   type="text"
                                   value=""
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="name"
                                     label="Name"
                                     maxLength={250}
                                     name="name"
@@ -205,79 +133,25 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                     required={true}
                                     type="text"
                                     value=""
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="Name"
-                                      maxLength={250}
-                                      name="name"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      required={true}
-                                      type="text"
-                                      value=""
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="name"
-                                        label="Name"
-                                        maxLength={250}
-                                        name="name"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        required={true}
-                                        type="text"
-                                        value=""
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Required. Give a descriptive name for this content pack.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Required. Give a descriptive name for this content pack.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -304,89 +178,46 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                       controlId="summary"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="summary"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="summary"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="summary"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="summary"
-                                  >
-                                    Summary
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Summary
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="Summary"
+                                maxLength={250}
+                                name="summary"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value=""
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Summary"
@@ -398,38 +229,9 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                   type="text"
                                   value=""
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="summary"
                                     label="Summary"
                                     maxLength={250}
                                     name="summary"
@@ -438,79 +240,25 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                     required={true}
                                     type="text"
                                     value=""
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="Summary"
-                                      maxLength={250}
-                                      name="summary"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      required={true}
-                                      type="text"
-                                      value=""
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="summary"
-                                        label="Summary"
-                                        maxLength={250}
-                                        name="summary"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        required={true}
-                                        type="text"
-                                        value=""
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Required. Give a short summary of the content pack.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Required. Give a short summary of the content pack.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -536,89 +284,45 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                       controlId="description"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="description"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="description"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="description"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="description"
-                                  >
-                                    Description
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Description
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="textarea"
+                                inputRef={[Function]}
+                                label="Description"
+                                name="description"
+                                onChange={[Function]}
+                                placeholder=""
+                                rows={6}
+                                type="textarea"
+                                value=""
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="textarea"
                                   inputRef={[Function]}
                                   label="Description"
@@ -629,38 +333,9 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                   type="textarea"
                                   value=""
                                 >
-                                  <StyledComponent
-                                    componentClass="textarea"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <textarea
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="description"
                                     label="Description"
                                     name="description"
                                     onChange={[Function]}
@@ -668,77 +343,25 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                     rows={6}
                                     type="textarea"
                                     value=""
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="textarea"
-                                      inputRef={[Function]}
-                                      label="Description"
-                                      name="description"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      rows={6}
-                                      type="textarea"
-                                      value=""
-                                    >
-                                      <textarea
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="description"
-                                        label="Description"
-                                        name="description"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        rows={6}
-                                        type="textarea"
-                                        value=""
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Give a long description of the content pack in markdown.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Give a long description of the content pack in markdown.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -765,89 +388,46 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                       controlId="vendor"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="vendor"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="vendor"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="vendor"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="vendor"
-                                  >
-                                    Vendor
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Vendor
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="Vendor"
+                                maxLength={250}
+                                name="vendor"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value=""
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Vendor"
@@ -859,38 +439,9 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                   type="text"
                                   value=""
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="vendor"
                                     label="Vendor"
                                     maxLength={250}
                                     name="vendor"
@@ -899,79 +450,25 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                     required={true}
                                     type="text"
                                     value=""
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="Vendor"
-                                      maxLength={250}
-                                      name="vendor"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      required={true}
-                                      type="text"
-                                      value=""
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="vendor"
-                                        label="Vendor"
-                                        maxLength={250}
-                                        name="vendor"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        required={true}
-                                        type="text"
-                                        value=""
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Required. Who did this content pack and how can they be reached, e.g. Name and email.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Required. Who did this content pack and how can they be reached, e.g. Name and email.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -997,89 +494,45 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                       controlId="url"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="url"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="url"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="url"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="url"
-                                  >
-                                    URL
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                URL
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="URL"
+                                maxLength={250}
+                                name="url"
+                                onChange={[Function]}
+                                placeholder=""
+                                type="text"
+                                value=""
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="URL"
@@ -1090,38 +543,9 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                   type="text"
                                   value=""
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="url"
                                     label="URL"
                                     maxLength={250}
                                     name="url"
@@ -1129,77 +553,25 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                                     placeholder=""
                                     type="text"
                                     value=""
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="URL"
-                                      maxLength={250}
-                                      name="url"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      type="text"
-                                      value=""
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="url"
-                                        label="URL"
-                                        maxLength={250}
-                                        name="url"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        type="text"
-                                        value=""
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Where can I find the content pack. e.g. github url
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Where can I find the content pack. e.g. github url
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -1320,67 +692,23 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                         disabled={false}
                         type="submit"
                       >
-                        <StyledComponent
+                        <Button
+                          active={false}
+                          block={false}
+                          bsClass="btn"
                           bsStyle="default"
-                          className="submit-button"
+                          className="Button__StyledButton-c9cbmb-0 laZUlH submit-button"
                           disabled={false}
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "SIZES": Array [
-                                "large",
-                                "small",
-                                "xsmall",
-                              ],
-                              "STYLES": Array [
-                                "success",
-                                "warning",
-                                "danger",
-                                "info",
-                                "default",
-                                "primary",
-                                "link",
-                              ],
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "Button__StyledButton-c9cbmb-0",
-                                "isStatic": false,
-                                "lastClassName": "hpBclA",
-                                "rules": Array [
-                                  [Function],
-                                ],
-                              },
-                              "displayName": "Button__StyledButton",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "Button__StyledButton-c9cbmb-0",
-                              "target": [Function],
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
-                            }
-                          }
-                          forwardedRef={null}
                           type="submit"
                         >
-                          <Button
-                            active={false}
-                            block={false}
-                            bsClass="btn"
-                            bsStyle="default"
-                            className="Button__StyledButton-c9cbmb-0 hpBclA submit-button"
+                          <button
+                            className="Button__StyledButton-c9cbmb-0 laZUlH submit-button btn btn-default"
                             disabled={false}
                             type="submit"
                           >
-                            <button
-                              className="Button__StyledButton-c9cbmb-0 hpBclA submit-button btn btn-default"
-                              disabled={false}
-                              type="submit"
-                            >
-                              Filter
-                            </button>
-                          </Button>
-                        </StyledComponent>
+                            Filter
+                          </button>
+                        </Button>
                       </Button__StyledButton>
                     </ForwardRef>
                   </div>
@@ -1402,68 +730,25 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
                         onClick={[Function]}
                         type="reset"
                       >
-                        <StyledComponent
-                          className="reset-button"
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "SIZES": Array [
-                                "large",
-                                "small",
-                                "xsmall",
-                              ],
-                              "STYLES": Array [
-                                "success",
-                                "warning",
-                                "danger",
-                                "info",
-                                "default",
-                                "primary",
-                                "link",
-                              ],
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "Button__StyledButton-c9cbmb-0",
-                                "isStatic": false,
-                                "lastClassName": "hpBclA",
-                                "rules": Array [
-                                  [Function],
-                                ],
-                              },
-                              "displayName": "Button__StyledButton",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "Button__StyledButton-c9cbmb-0",
-                              "target": [Function],
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
-                            }
-                          }
-                          forwardedRef={null}
+                        <Button
+                          active={false}
+                          block={false}
+                          bsClass="btn"
+                          bsStyle="default"
+                          className="Button__StyledButton-c9cbmb-0 laZUlH reset-button"
+                          disabled={false}
                           onClick={[Function]}
                           type="reset"
                         >
-                          <Button
-                            active={false}
-                            block={false}
-                            bsClass="btn"
-                            bsStyle="default"
-                            className="Button__StyledButton-c9cbmb-0 hpBclA reset-button"
+                          <button
+                            className="Button__StyledButton-c9cbmb-0 laZUlH reset-button btn btn-default"
                             disabled={false}
                             onClick={[Function]}
                             type="reset"
                           >
-                            <button
-                              className="Button__StyledButton-c9cbmb-0 hpBclA reset-button btn btn-default"
-                              disabled={false}
-                              onClick={[Function]}
-                              type="reset"
-                            >
-                              Reset
-                            </button>
-                          </Button>
-                        </StyledComponent>
+                            Reset
+                          </button>
+                        </Button>
                       </Button__StyledButton>
                     </ForwardRef>
                   </div>
@@ -1595,89 +880,46 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                       controlId="name"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="name"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="name"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="name"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="name"
-                                  >
-                                    Name
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Name
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="Name"
+                                maxLength={250}
+                                name="name"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value="name"
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Name"
@@ -1689,38 +931,9 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                   type="text"
                                   value="name"
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="name"
                                     label="Name"
                                     maxLength={250}
                                     name="name"
@@ -1729,79 +942,25 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                     required={true}
                                     type="text"
                                     value="name"
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="Name"
-                                      maxLength={250}
-                                      name="name"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      required={true}
-                                      type="text"
-                                      value="name"
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="name"
-                                        label="Name"
-                                        maxLength={250}
-                                        name="name"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        required={true}
-                                        type="text"
-                                        value="name"
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Required. Give a descriptive name for this content pack.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Required. Give a descriptive name for this content pack.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -1828,89 +987,46 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                       controlId="summary"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="summary"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="summary"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="summary"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="summary"
-                                  >
-                                    Summary
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Summary
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="Summary"
+                                maxLength={250}
+                                name="summary"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value="summary"
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Summary"
@@ -1922,38 +1038,9 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                   type="text"
                                   value="summary"
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="summary"
                                     label="Summary"
                                     maxLength={250}
                                     name="summary"
@@ -1962,79 +1049,25 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                     required={true}
                                     type="text"
                                     value="summary"
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="Summary"
-                                      maxLength={250}
-                                      name="summary"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      required={true}
-                                      type="text"
-                                      value="summary"
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="summary"
-                                        label="Summary"
-                                        maxLength={250}
-                                        name="summary"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        required={true}
-                                        type="text"
-                                        value="summary"
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Required. Give a short summary of the content pack.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Required. Give a short summary of the content pack.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -2060,89 +1093,45 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                       controlId="description"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="description"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="description"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="description"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="description"
-                                  >
-                                    Description
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Description
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="textarea"
+                                inputRef={[Function]}
+                                label="Description"
+                                name="description"
+                                onChange={[Function]}
+                                placeholder=""
+                                rows={6}
+                                type="textarea"
+                                value="description"
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="textarea"
                                   inputRef={[Function]}
                                   label="Description"
@@ -2153,38 +1142,9 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                   type="textarea"
                                   value="description"
                                 >
-                                  <StyledComponent
-                                    componentClass="textarea"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <textarea
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="description"
                                     label="Description"
                                     name="description"
                                     onChange={[Function]}
@@ -2192,77 +1152,25 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                     rows={6}
                                     type="textarea"
                                     value="description"
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="textarea"
-                                      inputRef={[Function]}
-                                      label="Description"
-                                      name="description"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      rows={6}
-                                      type="textarea"
-                                      value="description"
-                                    >
-                                      <textarea
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="description"
-                                        label="Description"
-                                        name="description"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        rows={6}
-                                        type="textarea"
-                                        value="description"
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Give a long description of the content pack in markdown.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Give a long description of the content pack in markdown.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -2289,89 +1197,46 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                       controlId="vendor"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="vendor"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="vendor"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="vendor"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="vendor"
-                                  >
-                                    Vendor
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                Vendor
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="Vendor"
+                                maxLength={250}
+                                name="vendor"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value="vendor"
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Vendor"
@@ -2383,38 +1248,9 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                   type="text"
                                   value="vendor"
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="vendor"
                                     label="Vendor"
                                     maxLength={250}
                                     name="vendor"
@@ -2423,79 +1259,25 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                     required={true}
                                     type="text"
                                     value="vendor"
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="Vendor"
-                                      maxLength={250}
-                                      name="vendor"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      required={true}
-                                      type="text"
-                                      value="vendor"
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="vendor"
-                                        label="Vendor"
-                                        maxLength={250}
-                                        name="vendor"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        required={true}
-                                        type="text"
-                                        value="vendor"
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Required. Who did this content pack and how can they be reached, e.g. Name and email.
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Required. Who did this content pack and how can they be reached, e.g. Name and email.
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -2521,89 +1303,45 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                       controlId="url"
                       validationState={null}
                     >
-                      <StyledComponent
+                      <FormGroup
+                        bsClass="form-group"
+                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                         controlId="url"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "SIZES": Array [
-                              "large",
-                              "small",
-                            ],
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                              "isStatic": false,
-                              "lastClassName": "gcTkZc",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "FormGroup__StyledFormGroup",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
                         validationState={null}
                       >
-                        <FormGroup
-                          bsClass="form-group"
-                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
-                          controlId="url"
-                          validationState={null}
+                        <div
+                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                         >
-                          <div
-                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
-                          >
-                            <ControlLabel>
-                              <StyledComponent
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "ControlLabel-sc-1edmum5-0",
-                                      "isStatic": false,
-                                      "lastClassName": "hCskeX",
-                                      "rules": Array [
-                                        [Function],
-                                      ],
-                                    },
-                                    "displayName": "ControlLabel",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "ControlLabel-sc-1edmum5-0",
-                                    "target": [Function],
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                          <ControlLabel>
+                            <ControlLabel
+                              bsClass="control-label"
+                              className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                              srOnly={false}
+                            >
+                              <label
+                                className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                htmlFor="url"
                               >
-                                <ControlLabel
-                                  bsClass="control-label"
-                                  className="ControlLabel-sc-1edmum5-0 hCskeX"
-                                  srOnly={false}
-                                >
-                                  <label
-                                    className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
-                                    htmlFor="url"
-                                  >
-                                    URL
-                                  </label>
-                                </ControlLabel>
-                              </StyledComponent>
+                                URL
+                              </label>
                             </ControlLabel>
-                            <InputWrapper>
-                              <span>
+                          </ControlLabel>
+                          <InputWrapper>
+                            <span>
+                              <FormControl
+                                componentClass="input"
+                                inputRef={[Function]}
+                                label="URL"
+                                maxLength={250}
+                                name="url"
+                                onChange={[Function]}
+                                placeholder=""
+                                type="text"
+                                value="http://example.com"
+                              >
                                 <FormControl
+                                  bsClass="form-control"
+                                  className="FormControl-sc-1amoaox-0 kmJcge"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="URL"
@@ -2614,38 +1352,9 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                   type="text"
                                   value="http://example.com"
                                 >
-                                  <StyledComponent
-                                    componentClass="input"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "Feedback": [Function],
-                                        "SIZES": Array [
-                                          "small",
-                                          "large",
-                                        ],
-                                        "Static": [Function],
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "FormControl-sc-1amoaox-0",
-                                          "isStatic": false,
-                                          "lastClassName": "eXfwDC",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "FormControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "FormControl-sc-1amoaox-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    inputRef={[Function]}
+                                  <input
+                                    className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                    id="url"
                                     label="URL"
                                     maxLength={250}
                                     name="url"
@@ -2653,77 +1362,25 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                                     placeholder=""
                                     type="text"
                                     value="http://example.com"
-                                  >
-                                    <FormControl
-                                      bsClass="form-control"
-                                      className="FormControl-sc-1amoaox-0 eXfwDC"
-                                      componentClass="input"
-                                      inputRef={[Function]}
-                                      label="URL"
-                                      maxLength={250}
-                                      name="url"
-                                      onChange={[Function]}
-                                      placeholder=""
-                                      type="text"
-                                      value="http://example.com"
-                                    >
-                                      <input
-                                        className="FormControl-sc-1amoaox-0 eXfwDC form-control"
-                                        id="url"
-                                        label="URL"
-                                        maxLength={250}
-                                        name="url"
-                                        onChange={[Function]}
-                                        placeholder=""
-                                        type="text"
-                                        value="http://example.com"
-                                      />
-                                    </FormControl>
-                                  </StyledComponent>
+                                  />
                                 </FormControl>
-                                <HelpBlock>
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "HelpBlock-i8is92-0",
-                                          "isStatic": false,
-                                          "lastClassName": "kxWRDS",
-                                          "rules": Array [
-                                            [Function],
-                                          ],
-                                        },
-                                        "displayName": "HelpBlock",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "HelpBlock-i8is92-0",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
+                              </FormControl>
+                              <HelpBlock>
+                                <HelpBlock
+                                  bsClass="help-block"
+                                  className="HelpBlock-i8is92-0 fSaklp"
+                                >
+                                  <span
+                                    className="HelpBlock-i8is92-0 fSaklp help-block"
                                   >
-                                    <HelpBlock
-                                      bsClass="help-block"
-                                      className="HelpBlock-i8is92-0 kxWRDS"
-                                    >
-                                      <span
-                                        className="HelpBlock-i8is92-0 kxWRDS help-block"
-                                      >
-                                        Where can I find the content pack. e.g. github url
-                                      </span>
-                                    </HelpBlock>
-                                  </StyledComponent>
+                                    Where can I find the content pack. e.g. github url
+                                  </span>
                                 </HelpBlock>
-                              </span>
-                            </InputWrapper>
-                          </div>
-                        </FormGroup>
-                      </StyledComponent>
+                              </HelpBlock>
+                            </span>
+                          </InputWrapper>
+                        </div>
+                      </FormGroup>
                     </FormGroup__StyledFormGroup>
                   </Component>
                 </Input>
@@ -2753,80 +1410,54 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
               Content Pack selection
             </h2>
             <HelpBlock>
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "HelpBlock-i8is92-0",
-                      "isStatic": false,
-                      "lastClassName": "kxWRDS",
-                      "rules": Array [
-                        [Function],
-                      ],
-                    },
-                    "displayName": "HelpBlock",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "HelpBlock-i8is92-0",
-                    "target": [Function],
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
+              <HelpBlock
+                bsClass="help-block"
+                className="HelpBlock-i8is92-0 fSaklp"
               >
-                <HelpBlock
-                  bsClass="help-block"
-                  className="HelpBlock-i8is92-0 kxWRDS"
+                <span
+                  className="HelpBlock-i8is92-0 fSaklp help-block"
                 >
-                  <span
-                    className="HelpBlock-i8is92-0 kxWRDS help-block"
+                  You can select between installed entities from the server (
+                  <Icon
+                    name="server"
+                    type="solid"
                   >
-                    You can select between installed entities from the server (
-                    <Icon
-                      name="server"
-                      type="solid"
-                    >
-                      <FontAwesomeIcon
-                        icon={
-                          Object {
-                            "iconName": "server",
-                            "prefix": "fas",
-                          }
+                    <FontAwesomeIcon
+                      icon={
+                        Object {
+                          "iconName": "server",
+                          "prefix": "fas",
                         }
-                      >
-                        <svg
-                          className="svg-inline--fa fa-server"
-                        />
-                      </FontAwesomeIcon>
-                    </Icon>
-                    ) or entities from the former content pack revision (
-                    <Icon
+                      }
+                    >
+                      <svg
+                        className="svg-inline--fa fa-server"
+                      />
+                    </FontAwesomeIcon>
+                  </Icon>
+                  ) or entities from the former content pack revision (
+                  <Icon
+                    className="contentPackEntity"
+                    name="archive"
+                    type="solid"
+                  >
+                    <FontAwesomeIcon
                       className="contentPackEntity"
-                      name="archive"
-                      type="solid"
-                    >
-                      <FontAwesomeIcon
-                        className="contentPackEntity"
-                        icon={
-                          Object {
-                            "iconName": "archive",
-                            "prefix": "fas",
-                          }
+                      icon={
+                        Object {
+                          "iconName": "archive",
+                          "prefix": "fas",
                         }
-                      >
-                        <svg
-                          className="svg-inline--fa fa-archive"
-                        />
-                      </FontAwesomeIcon>
-                    </Icon>
-                    ).
-                  </span>
-                </HelpBlock>
-              </StyledComponent>
+                      }
+                    >
+                      <svg
+                        className="svg-inline--fa fa-archive"
+                      />
+                    </FontAwesomeIcon>
+                  </Icon>
+                  ).
+                </span>
+              </HelpBlock>
             </HelpBlock>
           </div>
         </Col>
@@ -2920,67 +1551,23 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                         disabled={false}
                         type="submit"
                       >
-                        <StyledComponent
+                        <Button
+                          active={false}
+                          block={false}
+                          bsClass="btn"
                           bsStyle="default"
-                          className="submit-button"
+                          className="Button__StyledButton-c9cbmb-0 laZUlH submit-button"
                           disabled={false}
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "SIZES": Array [
-                                "large",
-                                "small",
-                                "xsmall",
-                              ],
-                              "STYLES": Array [
-                                "success",
-                                "warning",
-                                "danger",
-                                "info",
-                                "default",
-                                "primary",
-                                "link",
-                              ],
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "Button__StyledButton-c9cbmb-0",
-                                "isStatic": false,
-                                "lastClassName": "hpBclA",
-                                "rules": Array [
-                                  [Function],
-                                ],
-                              },
-                              "displayName": "Button__StyledButton",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "Button__StyledButton-c9cbmb-0",
-                              "target": [Function],
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
-                            }
-                          }
-                          forwardedRef={null}
                           type="submit"
                         >
-                          <Button
-                            active={false}
-                            block={false}
-                            bsClass="btn"
-                            bsStyle="default"
-                            className="Button__StyledButton-c9cbmb-0 hpBclA submit-button"
+                          <button
+                            className="Button__StyledButton-c9cbmb-0 laZUlH submit-button btn btn-default"
                             disabled={false}
                             type="submit"
                           >
-                            <button
-                              className="Button__StyledButton-c9cbmb-0 hpBclA submit-button btn btn-default"
-                              disabled={false}
-                              type="submit"
-                            >
-                              Filter
-                            </button>
-                          </Button>
-                        </StyledComponent>
+                            Filter
+                          </button>
+                        </Button>
                       </Button__StyledButton>
                     </ForwardRef>
                   </div>
@@ -3002,68 +1589,25 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                         onClick={[Function]}
                         type="reset"
                       >
-                        <StyledComponent
-                          className="reset-button"
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "SIZES": Array [
-                                "large",
-                                "small",
-                                "xsmall",
-                              ],
-                              "STYLES": Array [
-                                "success",
-                                "warning",
-                                "danger",
-                                "info",
-                                "default",
-                                "primary",
-                                "link",
-                              ],
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "Button__StyledButton-c9cbmb-0",
-                                "isStatic": false,
-                                "lastClassName": "hpBclA",
-                                "rules": Array [
-                                  [Function],
-                                ],
-                              },
-                              "displayName": "Button__StyledButton",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "Button__StyledButton-c9cbmb-0",
-                              "target": [Function],
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
-                            }
-                          }
-                          forwardedRef={null}
+                        <Button
+                          active={false}
+                          block={false}
+                          bsClass="btn"
+                          bsStyle="default"
+                          className="Button__StyledButton-c9cbmb-0 laZUlH reset-button"
+                          disabled={false}
                           onClick={[Function]}
                           type="reset"
                         >
-                          <Button
-                            active={false}
-                            block={false}
-                            bsClass="btn"
-                            bsStyle="default"
-                            className="Button__StyledButton-c9cbmb-0 hpBclA reset-button"
+                          <button
+                            className="Button__StyledButton-c9cbmb-0 laZUlH reset-button btn btn-default"
                             disabled={false}
                             onClick={[Function]}
                             type="reset"
                           >
-                            <button
-                              className="Button__StyledButton-c9cbmb-0 hpBclA reset-button btn btn-default"
-                              disabled={false}
-                              onClick={[Function]}
-                              type="reset"
-                            >
-                              Reset
-                            </button>
-                          </Button>
-                        </StyledComponent>
+                            Reset
+                          </button>
+                        </Button>
                       </Button__StyledButton>
                     </ForwardRef>
                   </div>
@@ -3110,310 +1654,120 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
                   <ExpandableListItem__ItemWrap
                     padded={false}
                   >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "ExpandableListItem__ItemWrap-sc-10hsq3a-0",
-                            "isStatic": false,
-                            "lastClassName": "chUVyE",
-                            "rules": Array [
-                              [Function],
-                            ],
-                          },
-                          "displayName": "ExpandableListItem__ItemWrap",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "ExpandableListItem__ItemWrap-sc-10hsq3a-0",
-                          "target": "li",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      padded={false}
+                    <li
+                      className="ExpandableListItem__ItemWrap-sc-10hsq3a-0 wLlKR"
                     >
-                      <li
-                        className="ExpandableListItem__ItemWrap-sc-10hsq3a-0 chUVyE"
-                      >
-                        <ExpandableListItem__Container>
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "ExpandableListItem__Container-sc-10hsq3a-1",
-                                  "isStatic": false,
-                                  "lastClassName": "jAkkIc",
-                                  "rules": Array [
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "ExpandableListItem__Container",
-                                "foldedComponentIds": Array [],
-                                "render": [Function],
-                                "styledComponentId": "ExpandableListItem__Container-sc-10hsq3a-1",
-                                "target": "div",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
+                      <ExpandableListItem__Container>
+                        <div
+                          className="ExpandableListItem__Container-sc-10hsq3a-1 hYIMSn"
+                        >
+                          <Checkbox
+                            bsClass="checkbox"
+                            checked={false}
+                            disabled={false}
+                            inline={true}
+                            inputRef={[Function]}
+                            onChange={[Function]}
+                            title=""
                           >
-                            <div
-                              className="ExpandableListItem__Container-sc-10hsq3a-1 jAkkIc"
+                            <label
+                              className="checkbox-inline"
+                              title=""
                             >
-                              <Checkbox
-                                bsClass="checkbox"
+                              <input
                                 checked={false}
                                 disabled={false}
-                                inline={true}
-                                inputRef={[Function]}
                                 onChange={[Function]}
-                                title=""
-                              >
-                                <label
-                                  className="checkbox-inline"
-                                  title=""
-                                >
-                                  <input
-                                    checked={false}
-                                    disabled={false}
-                                    onChange={[Function]}
-                                    type="checkbox"
-                                  />
-                                </label>
-                              </Checkbox>
-                              <ExpandableListItem__Toggle>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "ExpandableListItem__Toggle-sc-10hsq3a-2",
-                                        "isStatic": false,
-                                        "lastClassName": "hwyxtE",
-                                        "rules": Array [
-                                          "display:inline-block;width:20px;margin-right:5px;",
-                                        ],
-                                      },
-                                      "displayName": "ExpandableListItem__Toggle",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "ExpandableListItem__Toggle-sc-10hsq3a-2",
-                                      "target": "div",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <div
-                                    className="ExpandableListItem__Toggle-sc-10hsq3a-2 hwyxtE"
-                                  >
-                                    <ExpandableListItem__IconStack
-                                      className="fa-stack"
-                                      onClick={[Function]}
-                                      tabIndex={0}
-                                    >
-                                      <StyledComponent
-                                        className="fa-stack"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "ExpandableListItem__IconStack-sc-10hsq3a-3",
-                                              "isStatic": false,
-                                              "lastClassName": "gKePgA",
-                                              "rules": Array [
-                                                [Function],
-                                              ],
-                                            },
-                                            "displayName": "ExpandableListItem__IconStack",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "ExpandableListItem__IconStack-sc-10hsq3a-3",
-                                            "target": "div",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                        onClick={[Function]}
-                                        tabIndex={0}
-                                      >
-                                        <div
-                                          className="ExpandableListItem__IconStack-sc-10hsq3a-3 gKePgA fa-stack"
-                                          onClick={[Function]}
-                                          tabIndex={0}
-                                        >
-                                          <Icon
-                                            className="fa-stack-1x"
-                                            name="circle"
-                                            type="solid"
-                                          >
-                                            <FontAwesomeIcon
-                                              className="fa-stack-1x"
-                                              icon={
-                                                Object {
-                                                  "iconName": "circle",
-                                                  "prefix": "fas",
-                                                }
-                                              }
-                                            >
-                                              <svg
-                                                className="svg-inline--fa fa-circle"
-                                              />
-                                            </FontAwesomeIcon>
-                                          </Icon>
-                                          <Icon
-                                            className="fa-stack-1x"
-                                            name="angle-up"
-                                            type="solid"
-                                          >
-                                            <FontAwesomeIcon
-                                              className="fa-stack-1x"
-                                              icon={
-                                                Object {
-                                                  "iconName": "angle-up",
-                                                  "prefix": "fas",
-                                                }
-                                              }
-                                            >
-                                              <svg
-                                                className="svg-inline--fa fa-angle-up"
-                                              />
-                                            </FontAwesomeIcon>
-                                          </Icon>
-                                        </div>
-                                      </StyledComponent>
-                                    </ExpandableListItem__IconStack>
-                                  </div>
-                                </StyledComponent>
-                              </ExpandableListItem__Toggle>
-                              <ExpandableListItem__HeaderWrap
-                                className="header"
-                              >
-                                <StyledComponent
-                                  className="header"
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "ExpandableListItem__HeaderWrap-sc-10hsq3a-4",
-                                        "isStatic": false,
-                                        "lastClassName": "dtXXmg",
-                                        "rules": Array [
-                                          [Function],
-                                        ],
-                                      },
-                                      "displayName": "ExpandableListItem__HeaderWrap",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "ExpandableListItem__HeaderWrap-sc-10hsq3a-4",
-                                      "target": "span",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <span
-                                    className="ExpandableListItem__HeaderWrap-sc-10hsq3a-4 dtXXmg header"
-                                  >
-                                    <ExpandableListItem__Header
-                                      onClick={[Function]}
-                                      tabIndex={0}
-                                      type="button"
-                                    >
-                                      <StyledComponent
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "ExpandableListItem__Header-sc-10hsq3a-5",
-                                              "isStatic": false,
-                                              "lastClassName": "clUCXq",
-                                              "rules": Array [
-                                                "border:0;padding:0;text-align:left;background:transparent;",
-                                              ],
-                                            },
-                                            "displayName": "ExpandableListItem__Header",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "ExpandableListItem__Header-sc-10hsq3a-5",
-                                            "target": "button",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                        onClick={[Function]}
-                                        tabIndex={0}
-                                        type="button"
-                                      >
-                                        <button
-                                          className="ExpandableListItem__Header-sc-10hsq3a-5 clUCXq"
-                                          onClick={[Function]}
-                                          tabIndex={0}
-                                          type="button"
-                                        >
-                                          Spaceship
-                                        </button>
-                                      </StyledComponent>
-                                    </ExpandableListItem__Header>
-                                  </span>
-                                </StyledComponent>
-                              </ExpandableListItem__HeaderWrap>
-                            </div>
-                          </StyledComponent>
-                        </ExpandableListItem__Container>
-                        <ExpandableListItem__ExpandableContent>
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "ExpandableListItem__ExpandableContent-sc-10hsq3a-7",
-                                  "isStatic": false,
-                                  "lastClassName": "dVTgnM",
-                                  "rules": Array [
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "ExpandableListItem__ExpandableContent",
-                                "foldedComponentIds": Array [],
-                                "render": [Function],
-                                "styledComponentId": "ExpandableListItem__ExpandableContent-sc-10hsq3a-7",
-                                "target": "div",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
-                          >
+                                type="checkbox"
+                              />
+                            </label>
+                          </Checkbox>
+                          <ExpandableListItem__Toggle>
                             <div
-                              className="ExpandableListItem__ExpandableContent-sc-10hsq3a-7 dVTgnM"
-                            />
-                          </StyledComponent>
-                        </ExpandableListItem__ExpandableContent>
-                      </li>
-                    </StyledComponent>
+                              className="ExpandableListItem__Toggle-sc-10hsq3a-2 xBomU"
+                            >
+                              <ExpandableListItem__IconStack
+                                className="fa-stack"
+                                onClick={[Function]}
+                                tabIndex={0}
+                              >
+                                <div
+                                  className="ExpandableListItem__IconStack-sc-10hsq3a-3 dEjoPz fa-stack"
+                                  onClick={[Function]}
+                                  tabIndex={0}
+                                >
+                                  <Icon
+                                    className="fa-stack-1x"
+                                    name="circle"
+                                    type="solid"
+                                  >
+                                    <FontAwesomeIcon
+                                      className="fa-stack-1x"
+                                      icon={
+                                        Object {
+                                          "iconName": "circle",
+                                          "prefix": "fas",
+                                        }
+                                      }
+                                    >
+                                      <svg
+                                        className="svg-inline--fa fa-circle"
+                                      />
+                                    </FontAwesomeIcon>
+                                  </Icon>
+                                  <Icon
+                                    className="fa-stack-1x"
+                                    name="angle-up"
+                                    type="solid"
+                                  >
+                                    <FontAwesomeIcon
+                                      className="fa-stack-1x"
+                                      icon={
+                                        Object {
+                                          "iconName": "angle-up",
+                                          "prefix": "fas",
+                                        }
+                                      }
+                                    >
+                                      <svg
+                                        className="svg-inline--fa fa-angle-up"
+                                      />
+                                    </FontAwesomeIcon>
+                                  </Icon>
+                                </div>
+                              </ExpandableListItem__IconStack>
+                            </div>
+                          </ExpandableListItem__Toggle>
+                          <ExpandableListItem__HeaderWrap
+                            className="header"
+                          >
+                            <span
+                              className="ExpandableListItem__HeaderWrap-sc-10hsq3a-4 tDeuS header"
+                            >
+                              <ExpandableListItem__Header
+                                onClick={[Function]}
+                                tabIndex={0}
+                                type="button"
+                              >
+                                <button
+                                  className="ExpandableListItem__Header-sc-10hsq3a-5 cAgeBx"
+                                  onClick={[Function]}
+                                  tabIndex={0}
+                                  type="button"
+                                >
+                                  Spaceship
+                                </button>
+                              </ExpandableListItem__Header>
+                            </span>
+                          </ExpandableListItem__HeaderWrap>
+                        </div>
+                      </ExpandableListItem__Container>
+                      <ExpandableListItem__ExpandableContent>
+                        <div
+                          className="ExpandableListItem__ExpandableContent-sc-10hsq3a-7 hICkaB"
+                        />
+                      </ExpandableListItem__ExpandableContent>
+                    </li>
                   </ExpandableListItem__ItemWrap>
                 </ExpandableListItem>
               </ul>
