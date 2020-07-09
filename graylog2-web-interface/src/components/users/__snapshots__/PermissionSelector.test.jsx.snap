@@ -46,7 +46,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "Tabs-sc-1hzj2zf-0",
               "isStatic": false,
-              "lastClassName": "cZfRbF",
+              "lastClassName": "ipMnWq",
               "rules": Array [
                 [Function],
                 ";",
@@ -83,13 +83,13 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
       >
         <ForwardRef
           animation={false}
-          className="Tabs-sc-1hzj2zf-0 cZfRbF"
+          className="Tabs-sc-1hzj2zf-0 ipMnWq"
           defaultActiveKey={1}
           id="permissionSelectorTabs"
         >
           <Uncontrolled(Tabs)
             animation={false}
-            className="Tabs-sc-1hzj2zf-0 cZfRbF"
+            className="Tabs-sc-1hzj2zf-0 ipMnWq"
             defaultActiveKey={1}
             id="permissionSelectorTabs"
             innerRef={null}
@@ -99,7 +99,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
               animation={false}
               bsClass="tab"
               bsStyle="tabs"
-              className="Tabs-sc-1hzj2zf-0 cZfRbF"
+              className="Tabs-sc-1hzj2zf-0 ipMnWq"
               id="permissionSelectorTabs"
               mountOnEnter={false}
               onSelect={[Function]}
@@ -107,12 +107,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
             >
               <TabContainer
                 activeKey={1}
-                className="Tabs-sc-1hzj2zf-0 cZfRbF"
+                className="Tabs-sc-1hzj2zf-0 ipMnWq"
                 id="permissionSelectorTabs"
                 onSelect={[Function]}
               >
                 <div
-                  className="Tabs-sc-1hzj2zf-0 cZfRbF"
+                  className="Tabs-sc-1hzj2zf-0 ipMnWq"
                   id="permissionSelectorTabs"
                 >
                   <Nav
@@ -3102,7 +3102,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "Tabs-sc-1hzj2zf-0",
               "isStatic": false,
-              "lastClassName": "cZfRbF",
+              "lastClassName": "ipMnWq",
               "rules": Array [
                 [Function],
                 ";",
@@ -3139,13 +3139,13 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
       >
         <ForwardRef
           animation={false}
-          className="Tabs-sc-1hzj2zf-0 cZfRbF"
+          className="Tabs-sc-1hzj2zf-0 ipMnWq"
           defaultActiveKey={1}
           id="permissionSelectorTabs"
         >
           <Uncontrolled(Tabs)
             animation={false}
-            className="Tabs-sc-1hzj2zf-0 cZfRbF"
+            className="Tabs-sc-1hzj2zf-0 ipMnWq"
             defaultActiveKey={1}
             id="permissionSelectorTabs"
             innerRef={null}
@@ -3155,7 +3155,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
               animation={false}
               bsClass="tab"
               bsStyle="tabs"
-              className="Tabs-sc-1hzj2zf-0 cZfRbF"
+              className="Tabs-sc-1hzj2zf-0 ipMnWq"
               id="permissionSelectorTabs"
               mountOnEnter={false}
               onSelect={[Function]}
@@ -3163,12 +3163,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
             >
               <TabContainer
                 activeKey={1}
-                className="Tabs-sc-1hzj2zf-0 cZfRbF"
+                className="Tabs-sc-1hzj2zf-0 ipMnWq"
                 id="permissionSelectorTabs"
                 onSelect={[Function]}
               >
                 <div
-                  className="Tabs-sc-1hzj2zf-0 cZfRbF"
+                  className="Tabs-sc-1hzj2zf-0 ipMnWq"
                   id="permissionSelectorTabs"
                 >
                   <Nav
