@@ -54,7 +54,6 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                       "global": Object {
                         "background": "#e8e8e8",
                         "contentBackground": "#fff",
-                        "inputBackground": "#fff",
                         "link": "#702785",
                         "linkHover": "#410057",
                         "textAlt": "#fff",
@@ -71,6 +70,16 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                         "70": "#b4b4b4",
                         "80": "#cdcdcd",
                         "90": "#e6e6e6",
+                      },
+                      "input": Object {
+                        "background": "#fff",
+                        "backgroundDisabled": "#dddddd",
+                        "border": "#a6a6a6",
+                        "borderFocus": "#7894ce",
+                        "boxShadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(120,148,206,0.4)",
+                        "color": "#1f1f1f",
+                        "colorDisabled": "#9b9b9b",
+                        "placeholder": "#9b9b9b",
                       },
                       "table": Object {
                         "background": "#fafafa",
@@ -378,7 +387,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "FormControl-sc-1amoaox-0",
                                                 "isStatic": false,
-                                                "lastClassName": "eXfwDC",
+                                                "lastClassName": "hBmgnF",
                                                 "rules": Array [
                                                   [Function],
                                                 ],
@@ -401,7 +410,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                                         >
                                           <FormControl
                                             bsClass="form-control"
-                                            className="FormControl-sc-1amoaox-0 eXfwDC"
+                                            className="FormControl-sc-1amoaox-0 hBmgnF"
                                             componentClass="input"
                                             onChange={[Function]}
                                             placeholder="Enter title"
@@ -409,7 +418,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                                             value="new Title"
                                           >
                                             <input
-                                              className="FormControl-sc-1amoaox-0 eXfwDC form-control"
+                                              className="FormControl-sc-1amoaox-0 hBmgnF form-control"
                                               onChange={[Function]}
                                               placeholder="Enter title"
                                               type="text"
@@ -643,7 +652,6 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                       "global": Object {
                         "background": "#e8e8e8",
                         "contentBackground": "#fff",
-                        "inputBackground": "#fff",
                         "link": "#702785",
                         "linkHover": "#410057",
                         "textAlt": "#fff",
@@ -660,6 +668,16 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                         "70": "#b4b4b4",
                         "80": "#cdcdcd",
                         "90": "#e6e6e6",
+                      },
+                      "input": Object {
+                        "background": "#fff",
+                        "backgroundDisabled": "#dddddd",
+                        "border": "#a6a6a6",
+                        "borderFocus": "#7894ce",
+                        "boxShadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(120,148,206,0.4)",
+                        "color": "#1f1f1f",
+                        "colorDisabled": "#9b9b9b",
+                        "placeholder": "#9b9b9b",
                       },
                       "table": Object {
                         "background": "#fafafa",
@@ -967,7 +985,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "FormControl-sc-1amoaox-0",
                                                 "isStatic": false,
-                                                "lastClassName": "eXfwDC",
+                                                "lastClassName": "hBmgnF",
                                                 "rules": Array [
                                                   [Function],
                                                 ],
@@ -990,7 +1008,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                                         >
                                           <FormControl
                                             bsClass="form-control"
-                                            className="FormControl-sc-1amoaox-0 eXfwDC"
+                                            className="FormControl-sc-1amoaox-0 hBmgnF"
                                             componentClass="input"
                                             onChange={[Function]}
                                             placeholder="Enter title"
@@ -998,7 +1016,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                                             value="new Title"
                                           >
                                             <input
-                                              className="FormControl-sc-1amoaox-0 eXfwDC form-control"
+                                              className="FormControl-sc-1amoaox-0 hBmgnF form-control"
                                               onChange={[Function]}
                                               placeholder="Enter title"
                                               type="text"
@@ -1309,7 +1327,6 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                       "global": Object {
                         "background": "#e8e8e8",
                         "contentBackground": "#fff",
-                        "inputBackground": "#fff",
                         "link": "#702785",
                         "linkHover": "#410057",
                         "textAlt": "#fff",
@@ -1326,6 +1343,16 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                         "70": "#b4b4b4",
                         "80": "#cdcdcd",
                         "90": "#e6e6e6",
+                      },
+                      "input": Object {
+                        "background": "#fff",
+                        "backgroundDisabled": "#dddddd",
+                        "border": "#a6a6a6",
+                        "borderFocus": "#7894ce",
+                        "boxShadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(120,148,206,0.4)",
+                        "color": "#1f1f1f",
+                        "colorDisabled": "#9b9b9b",
+                        "placeholder": "#9b9b9b",
                       },
                       "table": Object {
                         "background": "#fafafa",
@@ -1633,7 +1660,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "FormControl-sc-1amoaox-0",
                                                 "isStatic": false,
-                                                "lastClassName": "eXfwDC",
+                                                "lastClassName": "hBmgnF",
                                                 "rules": Array [
                                                   [Function],
                                                 ],
@@ -1656,7 +1683,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                                         >
                                           <FormControl
                                             bsClass="form-control"
-                                            className="FormControl-sc-1amoaox-0 eXfwDC"
+                                            className="FormControl-sc-1amoaox-0 hBmgnF"
                                             componentClass="input"
                                             onChange={[Function]}
                                             placeholder="Enter title"
@@ -1664,7 +1691,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                                             value="new Title"
                                           >
                                             <input
-                                              className="FormControl-sc-1amoaox-0 eXfwDC form-control"
+                                              className="FormControl-sc-1amoaox-0 hBmgnF form-control"
                                               onChange={[Function]}
                                               placeholder="Enter title"
                                               type="text"

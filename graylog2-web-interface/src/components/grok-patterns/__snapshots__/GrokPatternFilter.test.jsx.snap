@@ -156,7 +156,7 @@ exports[`<GrokPatternFilter /> should render grok pattern input with patterns 1`
                           "componentStyle": ComponentStyle {
                             "componentId": "FormControl-sc-1amoaox-0",
                             "isStatic": false,
-                            "lastClassName": "eXfwDC",
+                            "lastClassName": "hBmgnF",
                             "rules": Array [
                               [Function],
                             ],
@@ -184,7 +184,7 @@ exports[`<GrokPatternFilter /> should render grok pattern input with patterns 1`
                       <FormControl
                         autoComplete="off"
                         bsClass="form-control"
-                        className="FormControl-sc-1amoaox-0 eXfwDC"
+                        className="FormControl-sc-1amoaox-0 hBmgnF"
                         componentClass="input"
                         inputRef={[Function]}
                         label="Filter pattern"
@@ -197,7 +197,7 @@ exports[`<GrokPatternFilter /> should render grok pattern input with patterns 1`
                       >
                         <input
                           autoComplete="off"
-                          className="FormControl-sc-1amoaox-0 eXfwDC form-control"
+                          className="FormControl-sc-1amoaox-0 hBmgnF form-control"
                           id="pattern-selector"
                           label="Filter pattern"
                           name="pattern-selector"
@@ -839,7 +839,7 @@ exports[`<GrokPatternFilter /> should render grok pattern input without patterns
                           "componentStyle": ComponentStyle {
                             "componentId": "FormControl-sc-1amoaox-0",
                             "isStatic": false,
-                            "lastClassName": "eXfwDC",
+                            "lastClassName": "hBmgnF",
                             "rules": Array [
                               [Function],
                             ],
@@ -867,7 +867,7 @@ exports[`<GrokPatternFilter /> should render grok pattern input without patterns
                       <FormControl
                         autoComplete="off"
                         bsClass="form-control"
-                        className="FormControl-sc-1amoaox-0 eXfwDC"
+                        className="FormControl-sc-1amoaox-0 hBmgnF"
                         componentClass="input"
                         inputRef={[Function]}
                         label="Filter pattern"
@@ -880,7 +880,7 @@ exports[`<GrokPatternFilter /> should render grok pattern input without patterns
                       >
                         <input
                           autoComplete="off"
-                          className="FormControl-sc-1amoaox-0 eXfwDC form-control"
+                          className="FormControl-sc-1amoaox-0 hBmgnF form-control"
                           id="pattern-selector"
                           label="Filter pattern"
                           name="pattern-selector"
